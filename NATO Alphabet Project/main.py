@@ -11,3 +11,5 @@ word = input("Enter a word: ").upper()
 output_list = [phonetic_dict[letter] for letter in word if letter != " "]
 print(output_list)
 
+
+
